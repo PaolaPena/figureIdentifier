@@ -14,4 +14,4 @@ label = gr.outputs.Label()
 examples = ['circle.png','square.png','triangle.png']
 
 intf = gr.Interface(fn=classify_image, inputs = image, outputs = label, examples = examples)
-intf.launch(inline=False, share = True)
+intf.launch(inline=False)
